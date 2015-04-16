@@ -1,0 +1,7 @@
+export(fastseg)
+export(segPlot)
+export(toDNAcopyObj)
+importFrom(BiocGenerics,setdiff)
+importFrom(IRanges,as.data.frame)
+importFrom(IRanges,sort)
+useDynLib(fastseg)
